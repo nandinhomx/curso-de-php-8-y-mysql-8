@@ -10,7 +10,7 @@ class BaseDatos {
   
   function __construct(
    /* **************************************************  ME DA ERROR EN ESTA LINEA 
-    [12-Nov-2021 17:40:27 UTC] PHP Fatal error:  Uncaught Error: Typed property Lib\BaseDatos::$servidor must not be accessed before initialization in /home/u689692510/domains/inventario.link/public_html/precios_materiales_0.1/Lib/BaseDatos.php:26
+    [12-Nov-2021 17:40:27 UTC] PHP Fatal error:  Uncaught Error: Typed property Lib\BaseDatos::$servidor must not be accessed before initialization in /home/u689692510/domains/public_html/precios_materiales_0.1/Lib/BaseDatos.php:26
 Stack trace:
 #0 /home/u689692510/domains/public_html/precios_materiales_0.1/Lib/BaseDatos.php(21): Lib\BaseDatos->conectar()
 #1 /home/u689692510/domains/public_html/precios_materiales_0.1/pruebaConexion.php(15): Lib\BaseDatos->__construct()
